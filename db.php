@@ -6,6 +6,6 @@ $conn = mysqli_connect(
   'emp',
   'password123',
   'php_mysql_crud'
-) or die(mysqli_error($mysqli));
+) or die(mysqli_error($conn));
 
 ?>
